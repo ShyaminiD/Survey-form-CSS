@@ -1,0 +1,120 @@
+        section {
+            margin: auto;
+            width: 50%;
+        }
+        
+        .banner {
+            padding: 1rem;
+            width: 100%;
+            border: 1px solid black;
+        }
+        
+        .fullname {
+            margin-top: rem;
+        }
+        
+        .nameDetails {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        
+        .nameDetails1 {
+            line-height: 60%;
+        }
+        
+        .nameDetails2 {
+            margin-left: 2rem;
+            line-height: 60%;
+        }
+        
+        .mailid {
+            margin-bottom: 0px;
+        }
+        
+        .far fa-star {
+            color: yellow;
+        }
+        
+        h5 {
+            font-weight: bold;
+        }
+        
+        span.asterik {
+            color: red;
+            font-size: 1rem;
+        }
+        
+        table {
+            text-align: center;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 0.8rem;
+            font-weight: bold;
+            height: 1.5rem;
+            width: 4rem;
+        }
+        
+        .column {
+            text-align: left;
+            padding-left: 0.5rem;
+        }
+        
+        th :nth-child(even) {
+            border: 1px solid #f2f2f2;
+        }
+        
+        table tr:nth-child(even) {
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+        }
+        
+        table tr:nth-child(odd) {
+            background-color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+        
+        tr {
+            border: 1px solid #f2f2f2;
+        }
+        
+        p {
+            font-family: 'Questrial', sans-serif;
+            font-size: 0.6rem;
+            font-weight: 800;
+        }
+        
+        .rateExp {
+            font-family: 'Questrial', sans-serif;
+            font-size: 0.7rem;
+            font-weight: normal;
+        }
+        
+        .name {
+            font-size: 0.6rem;
+        }
+        
+        textarea {
+            max-width: 100%;
+        }
+        
+        @media ( max-width: 768px) {
+            .nameDetails {
+                display: flex;
+                flex-direction: column;
+            }
+            .nameDetails2 {
+                margin-left: 0rem;
+            }
+            section {
+                overflow: auto;
+                overflow-y: hidden;
+            }
+            textarea {
+                width: 100%;
+            }
+        }
